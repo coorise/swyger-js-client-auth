@@ -1,6 +1,6 @@
 {
   "name": "@swyger/client-auth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Swyger Auth Client JS library is used for Swyger Server as consumer Rest API focused on authentication (register, login, forgot password...). Visit the master branch: https://github.com/coorise/swyger-js-client-auth.git",
   "type": "module",
   "main": "dist/swyger-client-auth.min.js",
@@ -34,7 +34,19 @@
     "Swyger",
     "Swyger Client",
     "Boilerplate",
-    "CMS"
+    "CMS",
+    "CRUD",
+    "firebase",
+    "socket.io",
+    "https",
+    "realtime",
+    "auth",
+    "strapi",
+    "sdk",
+    "web",
+    "browser",
+    "server",
+    "api consummer"
   ],
   "author": "Agglomy",
   "license": "MIT",

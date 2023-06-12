@@ -4,7 +4,7 @@ import Config from "./api/env";
 
 
 
-const SwygerClient= {
+const SwygerAuthClient= {
     init:(ClientConfig)=>{
         let config=Config.init(ClientConfig)
         const service = SocketService.init(config)
@@ -20,4 +20,4 @@ const SwygerClient= {
     }
 }
 
-export default SwygerClient
+export default SwygerAuthClient
