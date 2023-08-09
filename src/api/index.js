@@ -118,9 +118,7 @@ class SwygerClient{
     }
     let event=(path,socket)=>{
       let ref='%'+path
-      let parent=this.init(req)
-      delete parent.auth().login
-      delete parent.auth().register
+      let parent=this.init(req).auth()
       return {
         $connected:this.#dataBaseConnected,
         private:(id=generateQuickGuid())=>{
